@@ -9,6 +9,9 @@ ZSH=$HOME/.oh-my-zsh
 #ZSH_THEME="afowler"
 ZSH_THEME="kolo"
 #ZSH_THEME="crunch"
+#ZSH_THEME="alanpeabody"
+#ZSH_THEME="candy"
+#ZSH_THEME="gentoo"
 
 alias ls='ls -la'
 alias cp='cp -v'
