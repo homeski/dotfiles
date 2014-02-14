@@ -23,6 +23,10 @@ alias rm='rm -v'
 alias baja="ssh homeski@andwecoded.com" 
 alias lectura="ssh homeski@lectura.cs.arizona.edu"
 
+# This only applies to baja
+alias web="cd /var/www/html/"
+alias gogreen="cd /var/www/html/andwecoded.com/apps/rails/gogreenglobal/"
+
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
