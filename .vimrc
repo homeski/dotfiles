@@ -9,3 +9,5 @@ inoremap <silent> <C-S>         <C-O>:update<CR>
 " esc double tap to quit a program
 map <Esc><Esc> :q<CR>
 
+" show line numbers by default
+set number
