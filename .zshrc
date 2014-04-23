@@ -24,6 +24,8 @@ alias baja="ssh homeski@andwecoded.com"
 alias bajaroot="ssh root@andwecoded.com" 
 alias lectura="ssh homeski@lectura.cs.arizona.edu"
 
+alias gp="git push"
+
 # This only applies to baja
 alias web="cd /var/www/html/"
 alias gogreen="cd /var/www/html/andwecoded.com/apps/rails/gogreenglobal/"
