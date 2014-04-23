@@ -20,7 +20,8 @@ alias rm='rm -v'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias baja="ssh homeski@andwecoded.com" 
+alias baja="ssh homeski@andwecoded.com"
+alias bajaroot="ssh root@andwecoded.com" 
 alias lectura="ssh homeski@lectura.cs.arizona.edu"
 
 # This only applies to baja
