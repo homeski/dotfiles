@@ -27,7 +27,7 @@ alias lectura="ssh homeski@lectura.cs.arizona.edu"
 # This only applies to baja
 alias web="cd /var/www/html/"
 alias gogreen="cd /var/www/html/andwecoded.com/apps/rails/gogreenglobal/"
-
+alias httpdconf="vim /etc/httpd/conf/httpd.conf"
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
