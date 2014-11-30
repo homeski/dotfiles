@@ -72,6 +72,9 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 
+# Added for Nutch and Solr
+export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")
+
 # Remove system Ctrl-s binding so we can use it VIM
 bindkey -r '\C-s'
 # Added for CS452 Labs
