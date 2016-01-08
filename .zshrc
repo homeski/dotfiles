@@ -5,19 +5,16 @@
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
-
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
+ZSH_THEME="random"
 #ZSH_THEME="robbyrussell"
 #ZSH_THEME="afowler"
-ZSH_THEME="kolo"
+#ZSH_THEME="kolo"
 #ZSH_THEME="crunch"
 #ZSH_THEME="alanpeabody"
 #ZSH_THEME="candy"
 #ZSH_THEME="gentoo"
+
+alias dev='cd ~/Development'
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
