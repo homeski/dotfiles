@@ -13,6 +13,7 @@ ZSH_THEME="random"
 #ZSH_THEME="alanpeabody"
 #ZSH_THEME="candy"
 #ZSH_THEME="gentoo"
+#ZSH_THEME="steeef"
 
 alias dev='cd ~/Development'
 
