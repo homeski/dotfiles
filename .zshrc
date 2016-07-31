@@ -14,6 +14,10 @@ compinit
 # Start customization
 alias dev='cd ~/dev'
 alias gst='git status'
+
+alias tmat='tmux attach -t'
+alias tlst='tmux ls'
+alias tnew='tmux new -s'
 # End customization
 
 # Start oh-my-zsh 
