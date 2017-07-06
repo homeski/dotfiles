@@ -5,7 +5,7 @@
 set nu
 
 " edit tab settings
-set tabstop=3 		" The width of a tab is set to 3
-set shiftwidth=3 	" Indents will have a width of 3
-set softtabstop=3	" Sets the number of columns for a tab
+set tabstop=2 		" The width of a tab is set to 3
+set shiftwidth=2 	" Indents will have a width of 3
+set softtabstop=2	" Sets the number of columns for a tab
 set expandtab
