@@ -1,0 +1,6 @@
+% more like pagination
+setkey bob "g"
+setkey eob "G"
+
+setkey page_down "f"
+setkey page_up "b"
