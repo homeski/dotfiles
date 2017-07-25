@@ -90,3 +90,8 @@ alias gst='git status'
 alias tlst='tmux ls'
 alias tmat='tmux attach -t'
 alias tnew='tmux new -s'
+
+# Use most if it's available
+if command -v most > /dev/null; then
+  export PAGER="most"
+fi
