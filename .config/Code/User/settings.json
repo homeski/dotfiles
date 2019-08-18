@@ -1,0 +1,18 @@
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "vs-minimal",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.minimap.enabled": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.fontSize": 13,
+    "editor.rulers": [79],
+    "explorer.autoReveal": false,
+    "workbench.editor.tabSizing": "shrink",
+    "puppet.titleBar.pdkNewModule.enable": false,
+    "puppet.editorService.enable": false,
+    "explorer.confirmDelete": false,
+}

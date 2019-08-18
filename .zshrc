@@ -98,11 +98,22 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# misc
+alias dev='cd ~/Development'
 alias gst='git status'
+alias os='openstack'
 
+# tmux
 alias tlst='tmux ls'
 alias tmat='tmux attach -t'
 alias tnew='tmux new -s'
+
+# dev folders
+alias redhat='cd ~/Development/redhat-engagements'
+alias opendev='cd ~/Development/opendev.org'
+alias github='cd ~/Development/github.com'
+alias homeski='cd ~/Development/github.com-homeski'
+alias gerrit='cd ~/Development/gerrit.escwq.com'
 
 # Use most if it's available
 if command -v most > /dev/null; then
