@@ -3,7 +3,7 @@ cd "$(dirname "${BASH_SOURCE}")"
 
 function doIt() {
    rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.*" \
-      --exclude "README.md" --exclude "LICENSE-MIT.txt" -av --no-perms . ~
+      --exclude "README.md" --exclude "LICENSE-MIT.txt" -a -i --no-perms . ~
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
