@@ -119,3 +119,6 @@ alias gerrit='cd ~/Development/gerrit.escwq.com'
 if command -v most > /dev/null; then
   export PAGER="most"
 fi
+
+# So non-root users see all domains
+export LIBVIRT_DEFAULT_URI='qemu:///system'
