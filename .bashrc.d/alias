@@ -1,0 +1,4 @@
+alias gst='git status'
+alias tlst='tmux ls'
+alias tmat='tmux attach -t'
+alias tnew='tmux new -s'
