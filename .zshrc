@@ -106,3 +106,11 @@ alias gst='git status'
 alias tlst='tmux ls'
 alias tmat='tmux attach -t'
 alias tnew='tmux new -s'
+
+# oc autocomplete
+autoload -Uz compinit
+compinit
+if [ $commands[oc] ]; then
+  source <(oc completion zsh)
+  compdef _oc oc
+fi
