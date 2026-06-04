@@ -107,6 +107,8 @@ alias tlst='tmux ls'
 alias tmat='tmux attach -t'
 alias tnew='tmux new -s'
 
+PATH=${PATH}:~/bin
+
 # oc autocomplete
 autoload -Uz compinit
 compinit
