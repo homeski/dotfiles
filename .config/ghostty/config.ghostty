@@ -2,8 +2,8 @@ app-notifications = no-clipboard-copy
 background-opacity = .90
 bell-features = no-title
 font-size = 11
-keybind = ctrl+c=copy_to_clipboard
-keybind = ctrl+v=paste_from_clipboard
+keybind = alt+c=copy_to_clipboard
+keybind = alt+v=paste_from_clipboard
 link-url = true
 title = ghostty
 theme = TokyoNight Night
