@@ -8,6 +8,7 @@
     "files.trimTrailingWhitespace": true,
     "editor.fontSize": 14,
     "explorer.autoReveal": false,
+    "workbench.colorTheme": "Tokyo Night",
     "workbench.editor.tabSizing": "shrink",
     "workbench.tree.indent": 18,
     "explorer.confirmDelete": false,
