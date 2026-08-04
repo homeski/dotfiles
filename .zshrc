@@ -8,6 +8,8 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Plugin settings
+# This needs to be before the below bindkeys...
+bindkey -e
 # zsh-history-substring-search
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
@@ -48,7 +50,6 @@ if [ $commands[oc] ]; then
 fi
 
 # Fix keybindings
-bindkey -e
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 
