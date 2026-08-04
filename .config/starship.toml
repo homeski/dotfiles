@@ -8,10 +8,10 @@ $git_state\
 $git_metrics\
 $git_status\
 $package\
-$python\
 $kubernetes\
 $cmd_duration\
 $line_break\
+$python\
 $status\
 $container\
 $shell\
@@ -25,7 +25,8 @@ error_symbol = '[➜](bold red)'
 symbol = ''
 
 [hostname]
-ssh_symbol = ''
+ssh_symbol = '@'
+style = 'bg:#a06fd1 bold black'
 
 [kubernetes]
 disabled = false
@@ -33,4 +34,11 @@ format = '[(ns/$namespace)]($style) '
 style = 'yellow'
 
 [python]
-symbol = ''
+format = "[$virtualenv]($style) "
+style = "bg:#33658A"
+detect_extensions = []
+detect_files = []
+
+[username]
+format = '[$user]($style)'
+style_user = 'bg:#a06fd1 bold black'
