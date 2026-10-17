@@ -4,6 +4,8 @@
 #
 # Read `man 5 sway` for a complete reference.
 
+output DP-3 mode 3440x1440@164.900Hz
+
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
